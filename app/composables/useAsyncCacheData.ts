@@ -14,6 +14,7 @@ export function useAsyncCacheData<T>(key: MaybeRefOrGetter<string>, fetcher: () 
     getCachedData(key, app) {
       return app.payload.data[key];
     },
+    dedupe: 'defer',
     ...options,
   })
 }
