@@ -6,8 +6,6 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/eslint',
     'nuxt-typed-router',
-    '@pinia/nuxt',
-    'pinia-plugin-persistedstate',
   ],
   ui: { colorMode: false },
   css: ['~/assets/css/main.css'],
