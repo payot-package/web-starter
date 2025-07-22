@@ -23,7 +23,7 @@
     "@vueuse/router": "^13.5.0",
     "dayjs": "^1.11.13",
     "maska": "^3.2.0",
-    "nuxt": "^3.17.5",
+    "nuxt": "^4.0.1",
     "nuxt-typed-router": "^4.0.1",
     "prettier": "^3.6.2",
     "rxjs": "^7.8.2",
