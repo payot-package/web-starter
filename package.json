@@ -21,7 +21,7 @@
     "@vueuse/components": "^13.5.0",
     "@vueuse/core": "^13.5.0",
     "@vueuse/router": "^13.5.0",
-    "dayjs": "^1.11.13",
+    "dayjs-nuxt": "^2.1.11",
     "maska": "^3.2.0",
     "nuxt": "^4.0.1",
     "nuxt-typed-router": "^4.0.1",
@@ -31,8 +31,9 @@
     "zod": "^3.25.70"
   },
   "devDependencies": {
-    "@nuxt/eslint": "^1.4.1",
+    "@nuxt/eslint": "^1.2.0",
     "eslint": "^9.30.0",
+    "sass-embedded": "^1.89.2",
     "typescript": "^5.8.3"
   }
 }

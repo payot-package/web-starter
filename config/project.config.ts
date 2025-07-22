@@ -15,6 +15,12 @@ export default defineNuxtConfig({
     ]
   },
   build: { transpile: ['trpc-nuxt'] },
+  dayjs: {
+    locales: ['ko', 'en'],
+    defaultLocale: 'ko',
+    defaultTimezone: 'Asia/Seoul',
+    plugins: ['timezone', 'isBetween', 'isSameOrAfter', 'isSameOrBefore', 'arraySupport'],
+  },
   $development: {
     devServer: {
       port: 3000,
