@@ -19,3 +19,6 @@ export const t = initTRPC.context<Awaited<ReturnType<typeof createTRPCContext>>>
     */
     // transformer: superjson,
   });
+
+export const router = t.router;
+export const procedure = t.procedure;
